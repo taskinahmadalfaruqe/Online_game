@@ -1,0 +1,251 @@
+:root{
+    --PrimaryColor: #4fb8f7;
+    --whiteColor: #fff;
+    --linier: linear-gradient(#9d39c1, #238a20);
+    --button: #007bff;
+    --black: #000;
+    --Purple: #9d39c1;
+    --FONT:  'Roboto', sans-serif;
+}
+/* ==========================================
+        ALL COMMON CSS PART START 
+============================================= */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+ul, ol, li{
+    display: inline-block;
+    list-style: none;
+}
+a, a:hover, a:active{
+    text-decoration: none;
+    display: inline-block;
+}
+img{
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+body{
+    background: #4fb8f7;
+    font-family:var(--FONT);
+    margin: 0;
+    padding: 0;
+}
+.container{
+    padding: 0 10px;
+}
+/* ==========================================
+        ALL COMMON CSS PART END 
+============================================= */
+
+
+/* ==========================================
+       NAVBAR PART START 
+============================================= */
+nav{
+    background: #343a40;
+    padding: 10px 0;
+}
+nav .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+nav .container .logo{
+    width: 10%;
+}
+nav .container .logo a{
+    min-width: 150px;
+}
+nav .container .item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+nav .container .item .button{
+    display: flex;
+    gap: 20px;
+}
+nav .container .item .button button{
+    border: none;
+    background: transparent;
+} 
+nav .container .item .button button a{
+    color: var(--black);
+    padding: 05px 20px;
+    margin: 0;
+    background: #dfdd46;
+    font-weight: 700;
+    font-size: 15px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+} 
+nav .container .item .button button a:hover{
+    color: var(--whiteColor);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+} 
+nav .container .item .menu{
+    text-align: center;
+}
+nav .container .item .menu ul{
+    margin: 0;
+    padding: 0;
+}
+nav .container .item .menu ul li a{
+    color: var(--whiteColor);
+    font-size: 20px;
+}
+nav .container .item .menu ul li a:hover{
+    color: var(--PrimaryColor);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+nav .container .bars{
+    display: none;
+}
+nav .container .bars svg{
+    color: var(--whiteColor);
+    color: white;
+}
+/* ==========================================
+       NAVBAR PART END 
+============================================= */
+
+
+/* ==========================================
+        BANNER CSS PART START 
+============================================= */
+#banner  .marque{
+    color: var(--black);
+    background: #11a294;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    margin: 0;
+}
+#banner  .marque .container{
+    padding: 0;
+    margin: 0 auto;
+}
+#banner .container .slider .image{
+    width: 100%;
+}
+#banner .container .slider .image img{
+    height: 60vh;
+}
+/* ==========================================
+        BANNER CSS PART END 
+============================================= */
+
+
+/* ==========================================
+        GMAE CSS PART START 
+============================================= */
+#game .container{
+    padding: 30px;
+}
+#game .container .row .col-lg-4{
+    margin-bottom: 30px;
+}
+#game .container .row .col-lg-4 .G_items{
+    background: #f8f9fa;
+    /* padding: 10px; */
+    padding-bottom: 0;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+#game .container .row .col-lg-4 .G_items .G_image {
+    background: var(--linier);
+    border-radius: 07px;
+    -webkit-border-radius: 07px;
+    -moz-border-radius: 07px;
+    -ms-border-radius: 07px;
+    -o-border-radius: 07px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#game .container .row .col-lg-4 .G_items .G_image img {
+    /* height: 230px; */
+    width: 100%;
+    height: 150px;
+}
+#game .container .row .col-lg-4 .G_items .g_text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+#game .container .row .col-lg-4 .G_items .g_text .icon i, svg{
+    color: var(--Purple);
+    font-size: 20px;
+}
+
+#game .container .row .col-lg-4 .G_items .g_text button{
+    border: none;
+    background: transparent;
+    padding: 0;
+    margin: 0;
+}
+#game .container .row .col-lg-4 .G_items .g_text button a{
+    padding: 05px 10px;
+    background: var(--button);
+    font-size: 15px;
+    color: var(--whiteColor);
+    font-weight: 700;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+#game .container .row .col-lg-4 .G_items .g_text button a:hover{
+    background:var(--PrimaryColor);
+    color: var(--black);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+/* ==========================================
+        GMAE CSS PART END 
+============================================= */
+
+
+/* ==========================================
+        FOOTER CSS PART START 
+============================================= */
+footer{
+    text-align: center;
+    background: #343a40;
+    padding: 10px 0;
+    margin: 0;
+}
+footer p{
+    font-size: 20px;
+    color: var(--whiteColor);
+    margin: 0;
+}
+/* ==========================================
+        FOOTER CSS PART END 
+============================================= */

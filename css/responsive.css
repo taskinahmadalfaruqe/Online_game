@@ -1,0 +1,275 @@
+:root{
+    --PrimaryColor: #4fb8f7;
+    --whiteColor: #fff;
+    --linier: linear-gradient(#9d39c1, #238a20);
+    --button: #007bff;
+    --black: #000;
+    --Purple: #9d39c1;
+    --FONT:  'Roboto', sans-serif;
+}
+
+@media (min-width:0px) and (max-width: 575.98px){
+    nav{
+        background: #343a40;
+        padding: 10px 0;
+    }
+    nav .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+        position: relative;
+    }
+    nav .container .logo{
+        width: 10%;
+    }
+    nav .container .logo a{
+        width: 100px;
+    }
+    nav .container .item{
+        display: flex;
+        position: absolute;
+        top: 47px;
+        right: 10px;
+        background: rgba(0, 0, 0, 0.8);
+        width: 50vw;
+        text-align: center;
+        padding: 20px 10px;
+        height: 60vh;
+        z-index: 111111;
+        border-radius: 0px 0px 10px 10px;
+        -webkit-border-radius: 0px 0px 10px 10px;
+        -moz-border-radius: 0px 0px 10px 10px;
+        -ms-border-radius: 0px 0px 10px 10px;
+        -o-border-radius: 0px 0px 10px 10px;
+        transition: all linear .3s;
+        -webkit-transition: all linear .3s;
+        -moz-transition: all linear .3s;
+        -ms-transition: all linear .3s;
+        -o-transition: all linear .3s;
+        opacity: 0;
+        visibility: hidden;
+        flex-direction: column-reverse;
+        justify-content: start;
+        gap: 20px;
+}
+    nav .container .item .button{
+        display: flex;
+        flex-direction: column;
+    }
+    nav .container .bars{
+        display: inline-block;
+        cursor: pointer;
+    }
+    nav .container .item.active{
+        opacity: 1;
+        visibility: visible;
+        transition: all linear .3s;
+        -webkit-transition: all linear .3s;
+        -moz-transition: all linear .3s;
+        -ms-transition: all linear .3s;
+        -o-transition: all linear .3s;
+    }
+
+    #banner .container {
+        padding: 0;
+        margin: 0;
+    }
+    #banner .container marquee{
+        padding: 0 5px;
+    }
+    #banner .container .slider .image{
+        width: 100%;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+    #banner .container .slider .image img{
+        height: 45vh;
+    }
+
+    #game .container{
+        padding: 10px;
+    }
+    #game .container .row .col-lg-4{
+        margin-bottom: 20px;
+    }
+
+    footer{
+        font-size: 15px;
+    }
+    footer p{
+        font-size: 19px;
+    }
+}
+@media (min-width:576px) and (max-width: 767.98px){
+    nav{
+        background: #343a40;
+        padding: 10px 0;
+    }
+    nav .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+        position: relative;
+    }
+    nav .container .logo{
+        width: 10%;
+    }
+    nav .container .logo a{
+        width: 100px;
+    }
+    nav .container .item{
+        display: flex;
+        position: absolute;
+        top: 47px;
+        right: 0px;
+        background: rgba(0, 0, 0, 0.8);
+        width: 50vw;
+        text-align: center;
+        padding: 20px 10px;
+        height: 60vh;
+        z-index: 111111;
+        border-radius: 0px 0px 10px 10px;
+        -webkit-border-radius: 0px 0px 10px 10px;
+        -moz-border-radius: 0px 0px 10px 10px;
+        -ms-border-radius: 0px 0px 10px 10px;
+        -o-border-radius: 0px 0px 10px 10px;
+        transition: all linear .3s;
+        -webkit-transition: all linear .3s;
+        -moz-transition: all linear .3s;
+        -ms-transition: all linear .3s;
+        -o-transition: all linear .3s;
+        opacity: 0;
+        visibility: hidden;
+        flex-direction: column-reverse;
+        justify-content: start;
+        gap: 20px;
+}
+    nav .container .item .button{
+        display: flex;
+        flex-direction: column;
+    }
+    nav .container .bars{
+        display: inline-block;
+        cursor: pointer;
+    }
+    nav .container .item.active{
+        opacity: 1;
+        visibility: visible;
+        transition: all linear .3s;
+        -webkit-transition: all linear .3s;
+        -moz-transition: all linear .3s;
+        -ms-transition: all linear .3s;
+        -o-transition: all linear .3s;
+    }
+
+    #banner{
+        width: 100%;
+    }
+    #banner .container{
+        width: 100vw;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+
+    #game .container{
+        padding: 10px;
+    }
+    #game .container .row .col-lg-4{
+        margin-bottom: 20px;
+    }
+
+    footer{
+        font-size: 15px;
+    }
+    footer p{
+        font-size: 19px;
+    }
+}
+@media (min-width:767px) and (max-width: 991.98px){
+    nav{
+        background: #343a40;
+        padding: 10px 0;
+    }
+    nav .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+        position: relative;
+    }
+    nav .container .logo{
+        width: 10%;
+    }
+    nav .container .logo a{
+        width: 100px;
+    }
+    nav .container .item{
+        display: flex;
+        position: absolute;
+        top: 47px;
+        right: 0px;
+        background: rgba(0, 0, 0, 0.8);
+        width: 50vw;
+        text-align: center;
+        padding: 20px 10px;
+        height: 60vh;
+        z-index: 111111;
+        border-radius: 0px 0px 10px 10px;
+        -webkit-border-radius: 0px 0px 10px 10px;
+        -moz-border-radius: 0px 0px 10px 10px;
+        -ms-border-radius: 0px 0px 10px 10px;
+        -o-border-radius: 0px 0px 10px 10px;
+        transition: all linear .3s;
+        -webkit-transition: all linear .3s;
+        -moz-transition: all linear .3s;
+        -ms-transition: all linear .3s;
+        -o-transition: all linear .3s;
+        opacity: 0;
+        visibility: hidden;
+        flex-direction: column-reverse;
+        justify-content: start;
+        gap: 20px;
+}
+    nav .container .item .button{
+        display: flex;
+        flex-direction: column;
+    }
+    nav .container .bars{
+        display: inline-block;
+        cursor: pointer;
+    }
+    nav .container .item.active{
+        opacity: 1;
+        visibility: visible;
+        transition: all linear .3s;
+        -webkit-transition: all linear .3s;
+        -moz-transition: all linear .3s;
+        -ms-transition: all linear .3s;
+        -o-transition: all linear .3s;
+    }
+
+    #banner{
+        width: 100%;
+    }
+    #banner .container{
+        width: 100vw;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+
+    #game .container{
+        padding: 0px;
+    }
+    #game .container .row .col-lg-4{
+        margin-bottom: 20px;
+    }
+
+    footer{
+        font-size: 15px;
+    }
+    footer p{
+        font-size: 19px;
+    }
+}
